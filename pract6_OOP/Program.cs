@@ -10,16 +10,16 @@ namespace pract6_OOP
     {
         static void Main(string[] args)
         {
-            int a = Diff(6, 5);
-            int b = Mult(6, 5);
-            double d = Diff(4.7, 9.2);
-            double e = Mult(4.7, 9.2);
-            double f = Expon(1.2, 2.0);
+            int a = Diff(99, 25);
+            int b = Mult(6, 10);
+            double d = Diff(2.7, 10.2);
+            double e = Mult(4.7, 6.6);
+            double f = Expon(1.2, 3.3);
             
             Console.WriteLine("Введiть ваше слово: ");
             string n = Console.ReadLine();
             Console.WriteLine("Iнвертоване слово: " + Reverce(n));
-            Console.WriteLine($" 6-5= {a}, 6*5= {b}, 4.7-9.2= {d}, 4.7*9.2= {e}, 1.2 * 2.0= {f}");
+            Console.WriteLine($" 99-25= {a}, 6*10= {b}, 2.7-10.2= {d}, 4.7*6.6= {e}, 1.2 * 3.3= {f}");
 
             Console.ReadKey();
         }
